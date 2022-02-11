@@ -1,4 +1,8 @@
 // TODO: Include packages needed for this application
+const inquire = require('inquirer');
+const fs = require('fs');
+
+console.log(fs);
 
 // TODO: Create an array of questions for user input
 const questions = [];
