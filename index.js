@@ -7,49 +7,44 @@ const fs = require('fs');
 const questions = [
     {
         type: 'input',
-        name: 'Title',
+        name: 'title',
         message: 'What is the name of the project?'
     },
     {
         type: 'input',
-        name: 'Description',
-        message: 'Please provide description.'
+        name: 'description',
+        message: 'Please provide description of the project.'
     },
     {
         type: 'input',
-        name: 'Table of Contents',
-        message: 'Please provide table of contents.'
-    },
-    {
-        type: 'input',
-        name: 'Installation',
+        name: 'installation',
         message: 'Installation guidelines.'
     },
     {
         type: 'input',
-        name: 'Usage',
+        name: 'usage',
         message: 'Usage information.'
     },
     {
         type: 'list',
-        name: 'License',
+        name: 'license',
         message: 'What licenses do you have?',
         choices: ['MIT','UCSD','SDSU','UCBerkley']
     },
     {
         type: 'input',
-        name: 'Contributing',
-        message: '.'
+        name: 'contributing',
+        message: 'Contributing guidelines.'
     },
     {
         type: 'input',
-        name: 'Tests',
+        name: 'tests',
         message: 'Test instructions.'
     },
     {
         type: 'input',
-        name: 'Questions',
-        message: '.'
+        name: 'gitHub',
+        message: 'Please input your GitHub URL.'
     },
 ];
 
